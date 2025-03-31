@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  z-index: 100000;
+}
+.logo {
+  font-size: 1.3333rem;
+  width: max-content;
+  position: relative;
+  text-decoration: none;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  color: #fafafa;
+}
+.list-header {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 3rem;
+}
+.link-header {
+  width: max-content;
+  height: min-content;
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 0.9rem;
+}
+.cont-btn-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-user, .btn-user-signup {
+  font-size: 0.9rem;
+  color: #222222;
+  /* background-color: #eeeded5c; */
+  background-color: #fafafa;
+  border: none;
+  padding: 0.5rem 1rem;
+  height: min-content;
+  width: max-content;
+  border-radius: 8px;
+}
+.btn-menu,
+.btn-menu-exit {
+  display: none;
+  color: #fafafa;
+}
+.logo:hover {
+  color: #b1b1b1be;
+  transition: all 0.3s ease;
+}
+.link-header:hover {
+  color: #b1b1b1be;
+  transition: all 0.3s ease;
+}
+.btn-user:hover {
+  background-color: #b1b1b1be;
+  transition: all 0.3s ease;
+  color: #fafafa;
+}
+@media (max-width: 768px) {
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
