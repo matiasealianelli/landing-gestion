@@ -67,7 +67,49 @@ header {
   color: #fafafa;
 }
 @media (max-width: 768px) {
-
+  header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    height: min-content;
+    padding: 2rem 1rem;
+  }
+  .logo {
+    display: flex;
+  }
+  .list-header {
+    display: none;
+    transition: all 0.3s ease;
+    position: absolute;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #222222;
+    color: #fafafa;
+    width: 100%;
+    height: 90vh;
+    top: 6rem;
+    right: 0;
+  }
+  .list-header.active {
+    display: flex;
+  }
+  .link-header {
+    font-size: 1rem;
+  }
+  .btn-menu {
+    display: block;
+    position: relative;
+  }
+  .btn-menu-exit {
+    display: none;
+  }
+  .btn-user {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
  
