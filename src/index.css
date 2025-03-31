@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  font-family: "Raleway", sans-serif;
+}
+.contSections {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.cont-img-hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  z-index: -5000;
+}
+.img-hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+  z-index: -2000;
+  filter: brightness(0.25);
+}
