@@ -8,10 +8,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
 import "./index.css";
+import WebWorked from "./components/WebWorked";
 
 function App() {
   return (
     <>
+      <WebWorked />
       <Header />
       <div className="cont-img-hero">
         <img
