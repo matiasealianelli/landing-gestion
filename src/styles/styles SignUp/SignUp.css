@@ -156,4 +156,19 @@ input::placeholder {
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
+  .close-signup {
+    display: none;
+  }
+  .conteiner-signup {
+    z-index: 100000;
+    height: 100vh;
+    align-items: center;
+  }
+  .conteiner-card {
+    width: 50%;
+  }
+  .card-signup {
+    width: 100%;
+    height: auto;
+  }
 }
