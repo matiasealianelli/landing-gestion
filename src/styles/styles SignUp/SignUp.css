@@ -141,6 +141,19 @@ input::placeholder {
   transition: all 0.3s ease;
 }
 @media (max-width: 768px) {
+  .close-signup {
+    display: none;
+  }
+  .conteiner-signup {
+    z-index: 100000;
+  }
+  .conteiner-card {
+    width: 100%;
+  }
+  .card-signup {
+    width: 100%;
+    height: max-content;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 }
