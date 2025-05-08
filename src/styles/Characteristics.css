@@ -40,4 +40,17 @@
     background-color: #222;
     color: #fff;
     transition: all 0.3s ease;
+}@media (max-width:768px){
+    .conteiner-img-caracteristicas{
+    display: none;
+    }
+    .conteiner-info-caracteristicas{
+        width: 100%;
+    }
+    .subtitle-caracteristicas{
+        font-size: 2rem;
+    }
+    .btn-caracteristicas{
+        width: 100%;
+    }
 }
