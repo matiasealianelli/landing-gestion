@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import SignUp from "./SignUp/SignUp.jsx";
 import "../styles/styles SignUp/SignUp.css";
+import Logo from "./Logo.jsx";
 
 export default function Header() {
   let top = 0;
@@ -22,9 +23,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <a href="#" title="Inicio" className="logo">
-          GestionApp
-        </a>
+        < Logo />
         <nav className="list-header">
           <a href="#" className="link-header">
             Utilidades

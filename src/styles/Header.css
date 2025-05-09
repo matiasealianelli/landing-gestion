@@ -7,15 +7,37 @@ header {
   padding: 2rem 4rem;
   z-index: 100000;
 }
+.conteiner-logo-header{
+  height: min-content;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fafafa;
+  transition: all 0.3s ease;
+}
+.icon-logo-header{
+  font-size: 1.5rem;
+  width: min-content;
+  height: min-content;
+  padding: 0;
+  margin: 0;
+}
+.link-logo-header{
+  text-decoration: none;
+  color: #fafafa;
+  width: max-content;
+  height: min-content;
+}
 .logo {
   font-size: 1.3333rem;
   width: max-content;
   position: relative;
   text-decoration: none;
-  height: fit-content;
+  height: min-content;
   margin: 0;
   padding: 0;
-  color: #fafafa;
 }
 .list-header {
   display: flex;
@@ -53,7 +75,7 @@ header {
   display: none;
   color: #fafafa;
 }
-.logo:hover {
+.conteiner-logo-header:hover {
   color: #b1b1b1be;
   transition: all 0.3s ease;
 }
