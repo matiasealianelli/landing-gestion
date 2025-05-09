@@ -40,3 +40,17 @@
     color: #747474;
     transition: all 0.3s ease;
 }
+@media (max-width: 768px){
+    .conteiner-utilities{
+        flex-direction: column;
+    }
+    .conteiner-list-utilities{
+        width: 100%;
+    }
+    .list-utilities{
+        display: none;
+    }
+    .conteiner-description-utilities{
+        width: 100%;
+    }
+}
