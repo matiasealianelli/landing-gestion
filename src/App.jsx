@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Characteristics from "./components/Characteristics";
 import Utilities from "./components/Utilities.jsx";
-import Price from "./components/Price";
+import Price from "./components/Price/Price.jsx";
 import AskedQuestion from "./components/AskedQuestion";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
