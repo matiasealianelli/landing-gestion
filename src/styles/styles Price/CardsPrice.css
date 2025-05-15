@@ -1,0 +1,115 @@
+.swiper-wrapper,
+.conteiner-cards-price {
+  margin: 3rem 0;
+}
+.swiper-slide,
+.card-price {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #b4abe4;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+.conteiner-title-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.icon-card-price{
+  font-size: 1.5rem;
+}
+.title-card-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+.description-card-price {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.utilidades-cards-price{
+  font-size: 0.8rem;
+  /* text-decoration: ; */
+}
+.conteiner-descuento {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+  height: min-content;
+}
+.percent-card-price {
+  /* background-color: #a6b6d4; */
+  background-color: #b4abe4;
+  padding: 0.25rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  width: max-content;
+  height: min-content;
+}
+.priceOld-card-price {
+  text-decoration: line-through;
+  width: max-content;
+  height: min-content;
+}
+.newPrice-card {
+  font-size: 2.5rem;
+}
+.btn-press-price {
+  background-color: #532f7d;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.card-price:hover{
+  transition: all 0.3s ease;
+  scale: 1.02;
+}
+.btn-press-price:hover{
+  color: #222;
+  background-color: #b4abe4;
+  border: 1px solid #532f7d;
+  transition: all 0.3s ease;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #222;
+  background-color: #b4abe4;
+  border: 1px solid #532f7d;
+  transition: all 0.3s ease;
+}
+.btn-press-price:focus{
+    color: #222;
+  background-color: #b4abe4;
+  border: 1px solid #532f7d;
+  transition: all 0.3s ease;
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .swiper-wrapper {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  .card-price:hover{
+  scale: 1;
+}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) {
+  .swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  .swiper-slide,
+  .card-price {
+    min-width: 20%;
+    max-width: 30%;
+  }
+}
