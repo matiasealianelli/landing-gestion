@@ -1,0 +1,27 @@
+[{
+  "id":1,
+  "titulo":"Basico",
+  "descripcion": "Esta es una opcion basica",
+  "descuento": 35,
+  "precioAntiguo": 20.50,
+  "precioNuevo": 10.99,
+  "utilidades":["Calendario", "Notas rapidas en dashboard","Estadisticas basicas de usuario"]
+},
+{
+  "id":2,
+  "titulo":"Premium",
+  "descripcion": "Esta es una opcion Premium",
+  "descuento": 35,
+  "precioAntiguo": 20.50,
+  "precioNuevo": 10.99,
+  "utilidades":["Calendario", "Notas rapidas en dashboard","Estadisticas basicas de usuario"]
+},{
+  "id":3,
+  "titulo":"Bussiness",
+  "descripcion": "Esta es una opcion Bussiness",
+  "descuento": 35,
+  "precioAntiguo": 20.50,
+  "precioNuevo": 10.99,
+  "utilidades":["Todos los items del Plan Premium", "Chatbot integrado", "Textarea de IA"]
+}
+]
