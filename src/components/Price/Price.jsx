@@ -43,9 +43,8 @@ export default function Price() {
         <div className="conteiner-width conteiner-info-pay">
           <div className="conteiner-pay-mp">
             <p className="text-pay-mp">Paga en el momento con:</p>
-            <img src="/assets/svg-mp/MP_RGB_HANDSHAKE_color-azul_hori-izq.svg" className="icon-mp-azul" alt="" />
+            <img src="assets/svg-mp/MP_RGB_HANDSHAKE_color-azul_hori-izq.svg" className="icon-mp-azul" alt="" />
           </div>
-
           <p className="medios-pago-disponible">Todos los medios de pago disponibles</p>
         </div>
       </article>
