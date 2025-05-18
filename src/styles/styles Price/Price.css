@@ -49,8 +49,8 @@
   margin: 0;
 }
 .icon-mp-azul{
-  width: fit-content;
-  height: 4rem;
+  width: 8rem;
+  height: auto;
 }
 .btn-press-date:hover{
 color: #fafafa;
@@ -65,7 +65,6 @@ color: #fafafa;
     gap: 1rem;
   }
   .icon-mp-azul{
-  width: fit-content;
-  height: 3rem;
+  height: auto;
 }
 }
