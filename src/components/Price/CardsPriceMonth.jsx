@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../../styles/styles Price/CardsPrice.css";
-import InfoCardsPrice from "./InfoCardsPrice.json";
+import InfoCardsPrice from "./InfoCardsPriceMonth.json";
 import "../../index.css";
 
 export default function CardPrice() {
@@ -29,7 +29,7 @@ export default function CardPrice() {
             spaceBetween: 10,
           },
           768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
+          1024: { slidesPerView: 3, spaceBetween:0, },
         }}
         modules={[Keyboard, Pagination, Navigation]}
         className="mySwiper">
@@ -41,13 +41,10 @@ export default function CardPrice() {
               </h4>
               <i className="bi bi-boxes icon-box icon-card-price"></i>
             </div>
-            <p className="description-card-price">
-              {InfoCardsPrice[index].descripcion}
-            </p>
             <div className="utilidades-price">
               {InfoCardsPrice[index].utilidades.map((utilidad, i) => (
                 <p key={i} className="utilidades-cards-price">
-                  {utilidad}
+                  <i className="bi bi-check2"></i>{utilidad}
                 </p>
               ))}
             </div>

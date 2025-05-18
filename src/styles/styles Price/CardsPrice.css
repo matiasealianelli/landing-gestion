@@ -1,6 +1,6 @@
 .swiper-wrapper,
 .conteiner-cards-price {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 .swiper-slide,
 .card-price {
@@ -10,8 +10,9 @@
   background-color: #fafafa;
   padding: 2rem;
   border-radius: 8px;
-  border: 1px solid #b4abe4;
+  border: 1px solid #dcdcdc;
   margin: 0;
+  z-index: 100;
   transition: all 0.3s ease;
 }
 .conteiner-title-icon{
@@ -33,6 +34,9 @@
   font-weight: 500;
 }
 .utilidades-cards-price{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
   font-size: 0.8rem;
   /* text-decoration: ; */
 }
@@ -45,7 +49,8 @@
 }
 .percent-card-price {
   /* background-color: #a6b6d4; */
-  background-color: #b4abe4;
+  /* background-color: #abe4cf; */
+  background-color: #efff5d;
   padding: 0.25rem 1rem;
   font-size: 0.9rem;
   border-radius: 8px;
@@ -61,7 +66,7 @@
   font-size: 2.5rem;
 }
 .btn-press-price {
-  background-color: #532f7d;
+  background-color: #222222;
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -71,20 +76,20 @@
 }
 .btn-press-price:hover{
   color: #222;
-  background-color: #b4abe4;
-  border: 1px solid #532f7d;
+  background-color: transparent;
+  border: 1px solid #222;
   transition: all 0.3s ease;
 }
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     color: #222;
   background-color: #b4abe4;
   border: 1px solid #532f7d;
   transition: all 0.3s ease;
-}
+} */
 .btn-press-price:focus{
     color: #222;
-  background-color: #b4abe4;
-  border: 1px solid #532f7d;
+  background-color: transparent;
+  border: 1px solid #222;
   transition: all 0.3s ease;
 }
 @media (min-width: 360px) and (max-width: 768px) {
@@ -99,13 +104,16 @@
 }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
+   .card-price:hover{
+  scale: 1;
+}
 }
 @media (min-width: 1025px) {
   .swiper-wrapper {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 3rem 0;
   }
   .swiper-slide,
   .card-price {
