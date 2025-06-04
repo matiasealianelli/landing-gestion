@@ -1,0 +1,99 @@
+footer{
+  padding: 3rem 10% 0 10rem;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 2.5rem;
+}
+.conteiner-row1-footer{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.subtitle-newsletter, .text-newsletter{
+  margin: 0;
+}
+.col1-newsletter, .col2-newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 1lh;
+}
+.input-newsletter{
+  color: #fff;
+  background-color: #2e2e2e;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.btn-newsletter{
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.conteiner-input-newsletter{
+  height: min-content;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.conteiner-row2-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 2rem;
+}
+.conteiner-links-footer{
+  display: flex;
+  gap: 2.5rem;
+}
+.link-footer{
+  transition: all 0.3s ease;
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+}
+.link-portfolio-dev{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  text-decoration: none;
+}
+.link-dev{
+  transition: all 0.3s ease;
+  color: #fff;
+  font-weight: 600;
+}
+.input-newsletter:hover, .btn-newsletter:hover{
+  transition: all 0.3s ease;
+  background-color: #4f4f4f;
+}
+.btn-newsletter:hover{
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+.input-newsletter:focus-visible, .btn-newsletter:focus-visible, .input-newsletter:focus, .btn-newsletter:focus, .input-newsletter:focus-within, .btn-newsletter:focus-within{
+  transition: all 0.3s ease;
+  background-color: #4f4f4f;
+  border: none;
+}
+.input-newsletter:focus-visible{
+  outline: none;
+}
+.link-footer:hover{
+  transition: all 0.3s ease;
+  color:#b1b1b1be;
+}
+.link-dev:hover{
+  color: #b1b1b1be;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #b1b1b1be;
+}
