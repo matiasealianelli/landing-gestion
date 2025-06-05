@@ -101,3 +101,29 @@ footer{
   transition: all 0.3s ease;
   border-bottom: 1px solid #b1b1b1be;
 }
+@media (min-width: 360px) and (max-width: 768px){
+  footer{
+    padding: 3rem 1.5rem 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conteiner-row1-footer{
+    width: auto;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .conteiner-links-footer{
+    gap: 1.5rem;
+  }
+  .link-portfolio-dev{
+  max-width: 85%;
+  height: auto;
+  justify-content: center;
+}
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .conteiner-row1-footer{
+    gap: 3rem;
+  }
+}
