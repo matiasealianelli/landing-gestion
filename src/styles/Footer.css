@@ -6,9 +6,11 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  align-items: center;
   gap: 2.5rem;
 }
 .conteiner-row1-footer{
+  width: 100%;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -19,6 +21,7 @@ footer{
 .col1-newsletter, .col2-newsletter{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1lh;
 }
 .input-newsletter{
@@ -52,6 +55,7 @@ footer{
 }
 .conteiner-links-footer{
   display: flex;
+  padding: 0;
   gap: 2.5rem;
 }
 .link-footer{
@@ -61,10 +65,9 @@ footer{
   text-decoration: none;
 }
 .link-portfolio-dev{
+  width: max-content;
+  height: min-content;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  gap: 0.4rem;
   text-decoration: none;
 }
 .link-dev{
